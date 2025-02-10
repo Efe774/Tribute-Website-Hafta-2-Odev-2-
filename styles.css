@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 60px; /* Footer'ın içeriğiyle üst üste binmemesi için padding */
+}
+
+header {
+    background-color: #282828;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Giriş Bölümü */
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.einstein-image {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #888;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Biyografi Bölümü */
+#biography {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+#biography h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Eserler Bölümü */
+#books {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#books h2 {
+    text-align: center;
+    color: #333;
+}
+
+#books ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#books ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
